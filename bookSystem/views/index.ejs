@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>图书管理系统</title>
+</head>
+<body>
+	<a href="/addbook">增加图书</a>
+  <table>
+  	<tr>
+  		<td>ID</td>
+  		<td>图书名字</td>
+  		<td>作者</td>
+  		<td>价格</td>
+  		<td>操作</td>
+  	</tr>
+  	<% for(var i=0;i<tushu.length;i++){%>
+  	<tr>
+  		<td><%=tushu[i]._id%></td>
+  		<td><%=tushu[i].name%></td>
+  		<td><%=tushu[i].author%></td>
+  		<td><%=tushu[i].price%></td>
+  		<td><a href="dodelet?id=<%=tushu[i]._id%>">删除</a><a href="edit?id=<%=tushu[i]._id%>">修改</a></td>
+  	</tr>
+  	<%}%>
+  </table>
+</body>
+</html>

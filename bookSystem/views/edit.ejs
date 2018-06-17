@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>图书管理系统</title>
+
+</head>
+<body>
+   <form action="/doedit" method="get">
+   	  <p>ID：<input type="text" name="id" value="<%=_id%>" disabled ></p>
+   	  <p>书名：<input type="text" name="name" value="<%=name%>"></p>
+   	  <p>作者：<input type="text" name="author" value="<%=author%>"></p>
+   	  <p>价格：<input type="text" name="price" value="<%=price%>"></p>
+   	  <p><input type="submit" value="提交"></p>
+   </form>
+</body>
+</html>
