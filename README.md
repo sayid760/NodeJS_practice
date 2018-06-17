@@ -5,7 +5,7 @@
 然后就可以通过 http://localhost:3000 访问了。
 
 ## 目录
-* [图书管理系统-简易](master/bookSystem)
+* [图书管理系统-简易](bookSystem)
 使用：nodejs+express+mongodb+mongoose
 实现功能：增删改
 
