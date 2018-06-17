@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <h1>添加商品</h1>
+    <div>
+        <form action="#"  role="form" method="post" >
+	        <input id="cname" type="text"  name="cname" placeholder="商品名称" />
+	        <input  id="cprice"  name="cprice"  placeholder="商品价格" />
+	        <input id="addBtn" type="button"  value="添 加" />
+	    </form>
+    </div>
+
+    <script type="text/javascript" src="/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+        //用ajax提交表单
+        $("#addBtn").click(function(){
+            $.post("/doaddcommodity",{
+                "name": $("#cname").val(),
+                "price": $("#cprice").val(),
+                "imgSrc": "goods_"+Math.floor(Math.random()*5+1)+".jpg"
+            },function(result){
+                if(result == "1"){
+                    alert("添加成功");
+                    location.href='home'; 
+                }else if(result == "-1"){
+                    alert("添加错误");
+                }
+            })
+        });
+    </script>
+</body>
+</html>
