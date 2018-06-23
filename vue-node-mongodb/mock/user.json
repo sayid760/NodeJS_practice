@@ -1,0 +1,80 @@
+{
+  "status":"0",
+  "result":[
+    {
+    "userId": "1077",
+	  "userName":"小明",
+	  "userPwd": "123123",
+	  "orderList": [
+	     {
+	     "orderId":"020170452154548",
+	     "orderTotal":1600,
+	     "orderStatus":1,
+	     "createDate":"2018-06-20 19:39:12",
+	     "goodsList":[
+        {
+		      "productId":"10003",
+		      "productName":"小米6",
+		      "salePrice":2599,
+		      "productImage":"mi6.jpg",
+		      "productNum":1
+		    }
+	     ]
+	     }
+	  ],
+	  "cartList": [],
+	  "addressList":[
+	     {
+	       "addressId":"10001",
+	       "userName":"张小明",
+	       "streetName":"广州市天河区天河区天河区天河区",
+	       "postCode":1022,
+	       "tel":136256,
+	       "isDefault":true
+	     },
+	     {
+	       "addressId":"10002",
+	       "userName":"张小明",
+	       "streetName":"广州市黄埔区黄埔区黄埔区黄埔区",
+	       "postCode":1023,
+	       "tel":1365892554,
+	       "isDefault":false
+	     },
+	     {
+	       "addressId":"10003",
+	       "userName":"张小明",
+	       "streetName":"广州市11111111111",
+	       "postCode":1023,
+	       "tel":1365890111,
+	       "isDefault":false
+	     },
+	     {
+	       "addressId":"10004",
+	       "userName":"张小明",
+	       "streetName":"广州市222222222222222",
+	       "postCode":1023,
+	       "tel":1365892222,
+	       "isDefault":false
+	     },
+	     {
+	       "addressId":"10005",
+	       "userName":"张小明",
+	       "streetName":"广州市3333333333333333333",
+	       "postCode":1023,
+	       "tel":1365893333,
+	       "isDefault":false
+	     },
+	     {
+	       "addressId":"10006",
+	       "userName":"张小明",
+	       "streetName":"广州市4444444444444444",
+	       "postCode":1023,
+	       "tel":1365894444,
+	       "isDefault":false
+	     }
+	   ]
+    }
+  ]
+}
+
+
