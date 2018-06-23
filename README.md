@@ -23,5 +23,5 @@
 使用说明：
 启动mongodb；
 启动项目: 安装npm install，再输入：npm run dev ;  启动服务端：node ./server/bin/www
-然后就可以通过 http://localhost:3000 访问了。
+然后就可以通过 http://localhost:8080 访问了。
 
